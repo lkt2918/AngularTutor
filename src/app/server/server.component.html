@@ -1,0 +1,19 @@
+
+<h4 style="margin-left: 700px">Menu of the 36D restaurant </h4>
+
+<div>
+  <span>Add Component:</span>
+
+    <input type="text" [(ngModel)]="component">
+
+</div>
+
+<button class="btn btn-light" (click)="check()" >Add </button>
+<button class="btn btn-light" (click)="reset()" >Reset </button>
+
+<div *ngIf="hasThis" class="informBoxBoarder"> create {{returnCai}} </div>
+
+
+
+
+
